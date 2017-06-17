@@ -1,15 +1,23 @@
 body{
     background-color:#78BDE7;
+    color: white;
 }
 
-header h1, header h3 {
+h1, h2, h3 {
     text-align: center;
-    color: white;
+}
+header h1 {
+  font-size: 4rem;
+}
+header h2 {
+  font-size: 1.2rem;
+  padding-bottom:2rem;
 }
 
 p.login-signup {
     text-align: center;
     color:#fff;
+    margin-bottom:5rem;
 }
 
 p.login-signup button {
@@ -18,4 +26,25 @@ p.login-signup button {
     color:#78BDE7;
     border-radius: 10%;
     padding:.5rem;
+}
+
+.featured-event {
+  padding:1rem;
+  border:1px solid white;
+}
+img.ev-img {
+  width:15rem;
+  padding:1rem;
+}
+h4.ev-title {
+  text-align:center;
+}
+p.ev-comp {
+  float:left;
+}
+p.ev-date {
+  float:right;
+}
+p.ev-desc {
+  clear:both;
 }
